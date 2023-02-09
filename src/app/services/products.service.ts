@@ -15,4 +15,12 @@ export class ProductsService {
   getProduct(id: number) {
     return this.http.get<IProduct>(`http://localhost:3000/products/${id}`)
   }
+
+  postProduct(product: IProduct){
+    return this.http.post<IProduct>('http://localhost:3000/products', product)
+  }
+
+  deleteProduct(id: number) {
+    return this.http.delete<any>(`http://localhost:3000/products/${id}`);
+  }
 }

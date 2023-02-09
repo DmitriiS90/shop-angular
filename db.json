@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "IMAC4",
+      "title": "IMAC1",
       "price": 1000,
       "year": 2001,
       "image": "assets/images/imac.jpg",
@@ -37,19 +37,6 @@
         "ssd": "1024 GB",
         "memory": "1024 GB",
         "display": "16"
-      }
-    },
-    {
-      "id": 4,
-      "title": "IMAC4",
-      "price": 4000,
-      "year": 2004,
-      "image": "assets/images/imac.jpg",
-      "configure": {
-        "chip": "M4",
-        "ssd": "2048 GB",
-        "memory": "2048 GB",
-        "display": "17"
       }
     },
     {
